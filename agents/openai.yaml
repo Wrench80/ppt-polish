@@ -1,0 +1,5 @@
+interface:
+  display_name: "PPT 美化"
+  short_description: "美化已有 PPT：课程/学术/竞赛/评优/求职升学，去 AI 味、贴合老师与导师审美"
+  brand_color: "#1F4E79"
+  default_prompt: "使用 $ppt-polish 把这份已有 PPT 按指定场景（课程汇报/学术科研/竞赛答辩/评优展示/求职升学）美化，去除 AI 味、贴合老师与导师审美。"
