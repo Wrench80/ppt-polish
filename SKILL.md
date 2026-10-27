@@ -1,6 +1,6 @@
 ---
 name: ppt-polish
-description: Beautify an existing PowerPoint deck for a Chinese university scenario (课程汇报, 学术科研, 竞赛答辩, 评优展示, 求职升学), removing generic AI styling and matching what teachers and advisors consider professional. Use when the user asks to 美化/排版/润色 an existing PPT, or says a deck has "AI 味" or "太模板" or "老师/导师觉得不够专业".
+description: Beautify an existing PowerPoint deck for a Chinese university scenario (课程汇报, 学术科研, 竞赛答辩, 评优展示, 求职升学), removing generic AI styling and matching what teachers and advisors consider professional. Use when the user asks to 美化/打磨/排版/润色/优化 an existing PPT, or says a deck has "AI 味" or "太模板" or "老师/导师觉得不够专业".
 ---
 
 # PPT Polish（大学生场景 PPT 美化）
@@ -9,7 +9,7 @@ description: Beautify an existing PowerPoint deck for a Chinese university scena
 
 ## 何时使用
 
-- 用户要求**美化 / 排版 / 润色**一份已有的 `.pptx`，或说它"有 AI 味""太模板""老师/导师觉得不够专业"。
+- 用户要求**美化 / 打磨 / 排版 / 润色 / 优化**一份已有的 `.pptx`，或说它"有 AI 味""太模板""老师/导师觉得不够专业"。
 - 用户指定了场景，或场景能从标题 / 结构 / 受众判断。
 - 不适用：没有源内容从零做一份 PPT（交给 Presentations 技能创建，仅在要学术风时叠加本技能的 `references/scenarios.md`）；纯文案改写而没有文件。
 
@@ -45,3 +45,4 @@ description: Beautify an existing PowerPoint deck for a Chinese university scena
 
 - `references/scenarios.md` — 五大类、13 个子场景的配色 / 字体 / 版式 / 图表 / 语气与验收清单。
 - `references/style-rules.md` — 去 AI 味（词表 + 视觉）、导师审美标准、科学边界、讲稿与程序化验收。
+
